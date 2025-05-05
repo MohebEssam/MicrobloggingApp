@@ -33,7 +33,7 @@ cd MicrobloggingApp
 - Update the `appsettings.json` connection string:
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=MicrobloggingApp;Trusted_Connection=True;"
+  "DefaultConnection": "Server=localhost;Database=MicrobloggingApp;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 ```
 
@@ -41,8 +41,6 @@ cd MicrobloggingApp
 ```bash
 dotnet ef database update
 ```
-
-> 🔧 Alternatively, run the `MicrobloggingApp.DbMigration` project if provided.
 
 ### 3. 🔐 Configure Secrets (if needed)
 
