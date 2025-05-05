@@ -12,8 +12,7 @@ A small microblogging application (like Twitter/X) built with .NET 8, Azure Blob
 - OAuth 2.0 + JWT Authentication
 - xUnit for Unit & Integration Tests
 - Azure Function for background processing
-- Azure Application Insights & EventViewer Logging
----	If you're deploying to IIS:
+- Azure Application Insights & EventViewer Logging - If you're deploying to IIS:
 Set App Pool identity to a user that has permission to write to the Event Log.
 Or run the app as admin at least once to allow it to create the Event Source.
 
@@ -23,5 +22,5 @@ Or run the app as admin at least once to allow it to create the Event Source.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://your-repo-url.git
+git clone https://github.com/MohebEssam/MicrobloggingApp.git
 cd MicrobloggingApp
