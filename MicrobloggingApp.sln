@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrobloggingApp.API", "MicrobloggingApp.API\MicrobloggingApp.API.csproj", "{733D4F6D-7DA8-4053-9B90-A72BA5BCB3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrobloggingApp.Web", "MicrobloggingApp.Web\MicrobloggingApp.Web.csproj", "{5E8E757F-13E1-4B9C-8658-58BEC54B6D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrobloggingApp.Infrastructure", "MicrobloggingApp.Infrastructure\MicrobloggingApp.Infrastructure.csproj", "{F0D20C9E-3B14-4532-B41A-1F0323697C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrobloggingApp.Tests", "MicrobloggingApp.Tests\MicrobloggingApp.Tests.csproj", "{184AC90E-548F-41C2-BDC1-5425EDF89B7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrobloggingAppFunctions", "MicrobloggingAppFunctions\MicrobloggingAppFunctions.csproj", "{9067D025-48D3-405F-9D47-D0861DCABBA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{733D4F6D-7DA8-4053-9B90-A72BA5BCB3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733D4F6D-7DA8-4053-9B90-A72BA5BCB3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733D4F6D-7DA8-4053-9B90-A72BA5BCB3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733D4F6D-7DA8-4053-9B90-A72BA5BCB3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8E757F-13E1-4B9C-8658-58BEC54B6D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8E757F-13E1-4B9C-8658-58BEC54B6D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8E757F-13E1-4B9C-8658-58BEC54B6D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8E757F-13E1-4B9C-8658-58BEC54B6D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D20C9E-3B14-4532-B41A-1F0323697C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D20C9E-3B14-4532-B41A-1F0323697C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D20C9E-3B14-4532-B41A-1F0323697C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D20C9E-3B14-4532-B41A-1F0323697C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184AC90E-548F-41C2-BDC1-5425EDF89B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184AC90E-548F-41C2-BDC1-5425EDF89B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184AC90E-548F-41C2-BDC1-5425EDF89B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184AC90E-548F-41C2-BDC1-5425EDF89B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9067D025-48D3-405F-9D47-D0861DCABBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9067D025-48D3-405F-9D47-D0861DCABBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9067D025-48D3-405F-9D47-D0861DCABBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9067D025-48D3-405F-9D47-D0861DCABBA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFEB9F77-D54A-4F8E-AF02-34CD2CA441EA}
+	EndGlobalSection
+EndGlobal
