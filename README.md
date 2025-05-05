@@ -72,7 +72,7 @@ dotnet run --project MicrobloggingApp.API
 dotnet run --project MicrobloggingApp.MVC
 ```
 
-Visit `https://localhost:5001` for the frontend and `https://localhost:5001/api` for the API.
+Visit `https://localhost:7056` for the frontend and `https://localhost:7251/api` for the API.
 
 ---
 
